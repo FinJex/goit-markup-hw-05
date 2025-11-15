@@ -671,9 +671,15 @@ color: #2E2F42;
     top: 50%;
     left: 19px;
     transform: translateY(-50%);
+    fill: #2E2F42;
 }
 
 .text-field:focus {
     border-color: #4D5AE5;
     outline: none;
+    transition: fill 250ms ease;
+}
+
+.text-field:focus+.field-icon {
+    fill: #4D5AE5;
 }
