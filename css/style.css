@@ -564,10 +564,92 @@ margin-bottom: 16px;
     display: flex; 
     align-items: baseline;
 }
+
+
+.subscribe {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+    display: flex; 
+    align-items: baseline;
+}
+
+
+.subscribe-div {
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+    
+}
+
+.input-subscribe {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    display: block;
+    padding: 16px;
+    color: #ffffff;
+
+        font-weight: 400;
+    font-size: 12px;
+    line-height: 2.0;
+    letter-spacing: 0.04em;
+}
+
+.input-subscribe:focus {
+    border-color: #31D0AA;
+    outline: none;
+}
+
+.input-subscribe::placeholder {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2.0;
+    letter-spacing: 0.04em;
+}
+
+.button-subscribe {
+        font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    padding: 8px 24px;
+    border-radius: 4px;
+    border: none;
+     display: block;
+    min-width: 165px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-subscribe:hover, .button-subscribe:focus {
+background-color: #31D0AA;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-icon-send {
+    fill: #ffffff;
+    margin-left: 16px;
+    width: 24px;
+    height: 20px;
+ 
+
+}
 /* #endregion footer */
 
 
-
+/* #region backdrop */
 .backdrop {
     position: fixed;
     top: 0;
@@ -707,6 +789,12 @@ resize: none;
 background-color: transparent;
 outline: none;
 transition: border-color 250ms ease;
+
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: rgba(46, 47, 66, 0.4);
 }
 
 .comment-textarea::placeholder {
@@ -765,3 +853,4 @@ text-decoration: underline;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 8px;
 }
+/* #endregion backdrop */
