@@ -708,24 +708,18 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding: 0;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);    
 }
-
-
-
-.icon-close-black {     
-     fill: #2E2F42;
-     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+.icon-close-black {  
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+    fill: #2E2F42;
 }
 
 
 .close-popup:hover .icon-close-black {
     fill: #ffffff;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     background-color: #404BBF;
     border: none;
 }
@@ -737,7 +731,7 @@ border: none;
 }
 .close-popup:focus .icon-close-black {
     fill: #ffffff;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     background-color: #404BBF;
     border: none;
 }
