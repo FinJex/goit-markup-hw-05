@@ -694,7 +694,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-popup {
+.close-popp {
     position: absolute;
     top: 24px;
     right: 24px;
