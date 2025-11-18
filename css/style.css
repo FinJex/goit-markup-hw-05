@@ -730,7 +730,7 @@ border: none;
 border: none;
 }
 .close-popup:focus .icon-close-black {
-    fill: #ffffff;
+    fill: #ffffff; 
     
     background-color: #404BBF;
     border: none;
